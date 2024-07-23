@@ -6,11 +6,11 @@ on:
       FIRMWARE_DUMP_REPO:
         description: 'Your Firmware Dump URL'
         required: true
-        default: 'https://dumps.tadiphone.dev/dumps/alps/mgvi_64_nfc_armv82.git'
+        default: 'https://gitgud.io/okbuddygsi-dumps/alps/mgvi_64_nfc_armv82.git'
       FIRMWARE_DUMP_BRANCH:
         description: 'The Firmware Dump Branch'
         required: true
-        default: 'sys_tssi_64_armv82_tecno-user-13-TP1A.220624.014-454163-release-keys'
+        default: 'sys_tssi_64_armv82_tecno-user-13-TP1A.220624.014-585492-release-keys'
       DEVICE_TREE_REPO:
         description: 'Your Android Device Tree URL'
         required: true
