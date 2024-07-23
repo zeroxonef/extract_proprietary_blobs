@@ -6,23 +6,23 @@ on:
       FIRMWARE_DUMP_REPO:
         description: 'Your Firmware Dump URL'
         required: true
-        default: 'https://gitlab.com/kelexine/tecno-spark-8c-kg5j-rom-dump.git'
+        default: 'https://dumps.tadiphone.dev/dumps/alps/mgvi_64_nfc_armv82.git'
       FIRMWARE_DUMP_BRANCH:
         description: 'The Firmware Dump Branch'
         required: true
-        default: 'main'
+        default: 'sys_tssi_64_armv82_tecno-user-13-TP1A.220624.014-454163-release-keys'
       DEVICE_TREE_REPO:
         description: 'Your Android Device Tree URL'
         required: true
-        default: 'https://github.com/kelexine/android_device_tecno_kelly'
+        default: 'https://github.com/Anything-at-25-00/android_device_tecno_CK7n'
       DEVICE_TREE_BRANCH:
         description: 'Your Android Device Tree Branch'
         required: true
-        default: 'lineage-18.1'
+        default: 'lineage-20.0'
       DEVICE_CODENAME:
         description: 'Your Device Codename'
         required: true
-        default: 'kelly'
+        default: 'CK7n'
       DEVICE_VENDORNAME:
         description: 'Your Device OEM Name'
         required: true
@@ -30,11 +30,11 @@ on:
       USER_NAME:
         description: 'Name in Github Account'
         required: true
-        default: 'kelexine'
+        default: 'zeroxonef'
       USER_EMAIL:
         description: 'E-mail in Github Account'
         required: true
-        default: 'frankiekelechi@gmail.com'
+        default: 'zeroxonef.jade@proton.me'
 
 jobs:
   build:
